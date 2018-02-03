@@ -1,0 +1,53 @@
+﻿<Window
+    x:Class="WpfTest.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow"
+    Width="750"
+    Height="500">
+    <Grid>
+        <Button
+            Width="75"
+            Margin="541,150,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Button" />
+        <Slider
+            Name="slider1"
+            Width="243"
+            Height="41"
+            Margin="166,229,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Maximum="20"
+            Minimum="0"
+            TickFrequency="1"
+            TickPlacement="TopLeft" 
+            SelectionStart="0" ValueChanged="slider1_ValueChanged"/>
+        <Slider
+            Name="slider2"
+            Width="243"
+            Height="33"
+            Margin="166,275,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Maximum="20"
+            Minimum="0"
+            TickFrequency="1"
+            TickPlacement="TopLeft" 
+            SelectionStart="5" 
+            ValueChanged="slider2_ValueChanged"/>
+        <ProgressBar
+            Name="progressBar"
+            Width="243"
+            Height="33"
+            Margin="166,172,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Maximum="30"
+            Minimum="0" />
+
+
+
+    </Grid>
+</Window>
